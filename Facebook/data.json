@@ -1,0 +1,51 @@
+{
+    "MSDhoni": {
+      "name": "msdhoni",
+      "followers": 2500000,
+      "following": 5,
+      "profile": "https://thetalentedworld.net/wp-content/uploads/2020/06/ms-dhoni.jpg",
+      "posts": [
+        {
+          "image": "https://thetalentedworld.net/wp-content/uploads/2020/06/ms-dhoni.jpg",
+          "likes": 200,
+          "comments": 17
+        },
+        {
+          "image": "https://blog.playo.co/wp-content/uploads/2017/03/ms-dhoni-smiling-1024x697@2x.jpg",
+          "likes": 312,
+          "comments": 19
+        },
+        {
+          "image": "https://staticg.sportskeeda.com/editor/2021/06/ce6d2-16227030694048-800.jpg",
+          "likes": 1065,
+          "comments": 200
+        }
+      ]
+    },
+    "ViratKohli": {
+      "name": "virat",
+      "followers": 50000,
+      "following": 5,
+      "profile": "https://data1.ibtimes.co.in/en/full/729420/virat-kohli-anushka-sharma.jpg?h=450&l=50&t=40",
+      "posts": [
+        {
+          "image": "https://2.bp.blogspot.com/-UmSEOh0CSN4/WlD0JBHMrMI/AAAAAAAAlrY/32a4VUciMNMyNFTS3jbXjspl0cxh1skHwCLcBGAs/s1600/Virat-Kohli-Images-HD-12.jpg",
+          "likes": 200,
+          "comments": 17
+        },
+        {
+          "image": "https://firstsportz.com/wp-content/uploads/2020/12/Virat-Kohli-4.jpg",
+          "likes": 312,
+          "comments": 19
+        },
+        {
+          "image": "https://im.indiatimes.in/facebook/2019/Nov/virat_kohli_1574592318.jpg",
+          "likes": 1065,
+          "comments": 200
+        }
+      ]
+    }
+
+    
+  }
+  
