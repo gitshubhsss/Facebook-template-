@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook profile</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="profile-bar">
+            <div class="profile-image">
+                <img src="<%= data.profile %>" alt="" class="profile">
+            </div>
+            <div class="fb-text">
+                <h3>Facebook</h3>
+                <P>@facebook</P>
+            </div>
+            <div class="profile-menu">
+                <ul>
+                    <li id="home"><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/photos">Photos</a></li>
+                    <li><a href="/Reviews">Reviews</a></li>
+                    <li><a href="/events">Events</a></li>
+                    <li><a href="/posts">Posts</a></li>
+                    <li><a href="/community">Community</a></li>
+                </ul>
+            </div>
+            <div class="create-page">
+                <button id="create-btn">Create a Page</button>
+            </div>
+        </div>
+
+        <div class="post-informatiion">
+            <% for(post of data.posts){ %>
+                <div class="post-info-sec">
+                    <div class="post-section">
+                        <div class="post">
+                            <h3>posts</h3>
+                            <div class="post-info">
+                                <div class="post-nav">
+                                    <div class="posters-name">
+                                        <div class="posters-img">
+                                            <img src="<%= data.profile %>" alt="" class="nav-photo">
+                                        </div>
+                                        <div class="name-time">
+                                            <h5>
+                                                <%= data.name %>
+                                            </h5>
+                                            <div class="time">
+                                                <p>18 hrs</p>
+                                                <i class="fa-solid fa-globe"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="know-more-icon">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </div>
+                                </div>
+                                <div class="caption">
+                                    <p>As the Captain Cool retires from International Cricket, we bring you some the
+                                        best
+                                        quotes
+                                        on MS Dhoni. 1. Dhoni is the best Captain I have played under. </p>
+                                </div>
+                                <div class="post-image">
+                                    <img src="<%= post.image %>" alt="" class="post-img">
+                                </div>
+                                <div class="icon-menu">
+                                    <div class="likes">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        <p>
+                                            <%= post.likes %>
+                                        </p>
+                                    </div>
+                                    <div class="comments">
+                                        <i class="fa-regular fa-comment"></i>
+                                        <p>
+                                            <%= post.comments %>
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="comment-section">
+                                    <div class="write-comment">
+                                        <div class="status">
+                                            <img src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Free-Download.png"
+                                                alt="" class="status">
+                                        </div>
+                                        <div class="comment">
+                                            <input type="text" name="" id="" placeholder="Write you comment">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <% } %>
+        </div>
+        <div class="acount-section">
+            
+        </div>
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/0ad2f85ce2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
