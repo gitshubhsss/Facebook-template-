@@ -1,0 +1,191 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem; 
+    justify-content: space-around;
+    padding: 2rem 13rem;
+}
+body {
+   background-color: #9EC9FF;
+
+}
+.profile-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    position: sticky;
+    top: 20px;
+}
+.profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(134, 134, 202);
+}
+.fb-text{
+    margin-top: 0.5rem;
+}
+.fb-text p{
+    font-size: 0.9rem;
+    color: rgb(77, 74, 74);
+}
+.profile-menu{
+    margin-top: 1rem;
+}
+.profile-menu ul{
+    line-height: 1.8rem;
+}
+.profile-menu ul li{
+    list-style-type: none;
+
+}
+.profile-menu ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 0.9rem;
+    transition: font-size 0.6s;
+    font-weight: 500;
+}
+.profile-menu ul li a:hover{
+    transition-delay: 0.01s;
+    font-size: 1rem;
+    width: 2rem;
+}
+.create-page{
+    margin-top: 1rem;
+}
+#create-btn{
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(52, 52, 191);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.post-info-sec{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: 2px solid red;
+
+}
+.post-informatiion{
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.post-section{
+   background-color: white;
+   padding: 1rem;
+   width: 25rem;
+   border-radius: 15px;
+   
+    
+}
+.post-info{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+}
+.post-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.posters-name{
+    display: flex;
+    align-items: center;
+}
+.nav-photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid palevioletred;
+}
+.name-time{
+    margin-left: 0.8rem;
+}
+.name-time h5{
+    font-size: 1.1rem;
+    color: rgb(40, 34, 34);
+}
+.time{
+    display: flex;
+    font-size: 0.7rem;
+    color: #bbb;
+    line-height: 1.5rem;
+    align-items: center;
+}
+
+.time i{
+    margin-left: 0.4rem;
+}
+.know-more-icon{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.caption{
+   margin-top: 0.5rem;
+   font-size: 0.8rem;
+}
+.post-image{
+    margin-top: 0.8rem;
+}
+.post-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.icon-menu{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.icon-menu i{
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.likes{
+    display: flex;
+}
+.comments{
+    display: flex;
+}
+.comment-section{
+    margin-top: 1rem;
+    display: flex;
+}
+.write-comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.status{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+input{
+   padding: 8px;
+   border-radius: 20px;
+   padding-left: 1rem;
+   width: 18rem;
+   margin-left: 0.5rem;
+   border: 1px solid #bbb;
+   outline-color: blue;
+}
+/* .account-section{
+    border: 2PX SOLID black;
+    margin-left: 1rem;
+} */
